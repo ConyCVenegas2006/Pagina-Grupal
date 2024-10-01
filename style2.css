@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+:root {
+    --color_1: rgba(84, 41, 242, 1);
+    --color_2: rgba(187, 171, 242, 1);
+    --color_3: rgba(120, 101, 242, 1);
+    --color_4: rgba(29, 121, 242, 1);
+    --color_5: rgba(242, 242, 242, 1);
+}
+
+#nav {
+    width: 100vw;
+    height: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color_1);
+}
+
+#nav-title {
+    font-size: 1.5vw;
+    color: var(--color_5);
+ 
+}
+.assa {
+    width: 28vw !important;
+}
+#nav-ul {
+    list-style: none;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 1vw;
+}
+
+#nav-ul li {
+    padding: 1% 2%;
+    border-bottom: 2px solid var(--color_5);
+}
+
+#nav-ul li a {
+    text-decoration: none;
+    color: var(--color_5);
+}
+
+#header{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient( 90deg, var(--color_4) 0%, var(--color_2) 100%);
+}
+
+#header-article-1{
+    width: 30%;
+    aspect-ratio: 1/1;
+    background-image: url(image/logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-article-2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--color_5);
+    padding: 3%;
+    gap: 1vw;
+}
+
+.h1{
+    font-size: 2vw;
+}
+
+#main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color_5);
+    align-items: center;
+    justify-content: center;
+}
+
+#content-cards{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 5% 0;
+}
+
+#content-cards section{
+    width: 25%;
+    height: auto;
+    background-color: var(--color_3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 1vw;
+    border-radius: 10px;
+}
+
+#content-cards section figure{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: var(--color_5);
+    border-radius: 100%;
+
+}
+
+.button-portafolio{
+    color: white;
+}
+
+#proyectos{
+    width: 100%;
+    background-color: var(--color_2);
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+#proyectos h2{
+    width: 100%;
+    text-align: left;
+    font-size: 3vw;
+    color: var(--color_5);
+}
+
+#proyectos-content-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+#proyectos-content-cards div{
+    width: 100%;
+    background-color: var(--color_5);
+    border-radius: 10px;
+}
+
+#proyectos-content-cards div figure{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--color_3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#proyectos-figure-2 {
+    width: 100%;
+}
+
+#foto-perfil-1{
+    background-image: url(image/);
+}
+#foto-perfil-2{
+    background-image: url(Página_grupal\image\madeline.png);
+    width: 51%;
+}
+#foto-perfil-3 {
+   
+    background-image: url(Página_grupal\image\mamut.png);
+    width: 51%;
+
+}
+    
+
+#foto-perfil-4{
+    background-image: url(Página_grupal\image\cony.png);
+    width: 51%;
+}
+#foto-perfil-5{
+    background-image: url(Página_grupal\image\Bastián.png);
+    width: 51%;
+}
+
+#proyectos-content-cards div figcaption{
+    width: 30%;
+    padding: 3%;
+    background-image: url(Página_grupal\image\luxury.jpg);
+}
+#proyectos-figure-1 {
+    width: 100%;
+}
+
+
+#card-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#card-button a{
+    width: 50%;
+    aspect-ratio: 16/9;
+    background-color: var(--color_4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: var(--color_5);
+    font-family: 1.2vw;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#formulario{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cecece30;
+    backdrop-filter: blur(10px);
+}
+
+#form-figure{
+    width: 30%;
+    height: 70%;
+    background-color: var(--color_1);
+    border-radius: 0 20px 20px 0;
+    background-image: url(image/logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#formulario form{
+    width: 40%;
+    padding: 0% 3%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--color_2);
+    gap: 1vw;
+    border-radius: 20px 0 0 20px;
+}
+
+#formulario form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+#mensaje{
+    resize: none;
+    aspect-ratio: 16/5;
+}
+
+
+#formulario form div label, 
+#formulario form input{
+    width: 100%;
+}
+
+#formulario form div label{
+    font-size: 1vw;
+}
+
+#formulario form input{
+    padding: 1% 2%;
+    border-radius: 10px;
+    border: none;
+}
+
+#form-group-4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#submit{
+    padding: 2% 3%;
+    border-radius: 50px;
+    background-color: var(--color_1);
+    color: var(--color_5);
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+}
+
+#close{
+    width: 3vw;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    mask-image: url(image/close.png.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    position: absolute;
+    background-color: #000000;
+    top: 12%;
+    right: 10%;
+}
